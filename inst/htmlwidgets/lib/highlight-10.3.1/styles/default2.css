@@ -1,0 +1,99 @@
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.hljs-default2 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.hljs-default2,
+code.hljs-default2 > .hljs-subst {
+  color: #444;
+}
+
+code.hljs-default2 > .hljs-comment {
+  color: #888888;
+}
+
+code.hljs-default2 > .hljs-keyword,
+code.hljs-default2 > .hljs-attribute,
+code.hljs-default2 > .hljs-selector-tag,
+code.hljs-default2 > .hljs-meta-keyword,
+code.hljs-default2 > .hljs-doctag,
+code.hljs-default2 > .hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+code.hljs-default2 > .hljs-type,
+code.hljs-default2 > .hljs-string,
+code.hljs-default2 > .hljs-number,
+code.hljs-default2 > .hljs-selector-id,
+code.hljs-default2 > .hljs-selector-class,
+code.hljs-default2 > .hljs-quote,
+code.hljs-default2 > .hljs-template-tag,
+code.hljs-default2 > .hljs-deletion {
+  color: #880000;
+}
+
+code.hljs-default2 > .hljs-title,
+code.hljs-default2 > .hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+code.hljs-default2 > .hljs-regexp,
+code.hljs-default2 > .hljs-symbol,
+code.hljs-default2 > .hljs-variable,
+code.hljs-default2 > .hljs-template-variable,
+code.hljs-default2 > .hljs-link,
+code.hljs-default2 > .hljs-selector-attr,
+code.hljs-default2 > .hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+code.hljs-default2 > .hljs-literal {
+  color: #78A960;
+}
+
+code.hljs-default2 > .hljs-built_in,
+code.hljs-default2 > .hljs-bullet,
+code.hljs-default2 > .hljs-code,
+code.hljs-default2 > .hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+code.hljs-default2 > .hljs-meta {
+  color: #1f7199;
+}
+
+code.hljs-default2 > .hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+code.hljs-default2 > .hljs-emphasis {
+  font-style: italic;
+}
+
+code.hljs-default2 > .hljs-strong {
+  font-weight: bold;
+}

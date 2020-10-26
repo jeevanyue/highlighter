@@ -1,0 +1,84 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.hljs-solarized-dark2 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+}
+
+code.hljs-solarized-dark2 > .hljs-comment,
+code.hljs-solarized-dark2 > .hljs-quote {
+  color: #586e75;
+}
+
+/* Solarized Green */
+code.hljs-solarized-dark2 > .hljs-keyword,
+code.hljs-solarized-dark2 > .hljs-selector-tag,
+code.hljs-solarized-dark2 > .hljs-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+code.hljs-solarized-dark2 > .hljs-number,
+code.hljs-solarized-dark2 > .hljs-string,
+code.hljs-solarized-dark2 > .hljs-meta .hljs-meta-string,
+code.hljs-solarized-dark2 > .hljs-literal,
+code.hljs-solarized-dark2 > .hljs-doctag,
+code.hljs-solarized-dark2 > .hljs-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+code.hljs-solarized-dark2 > .hljs-title,
+code.hljs-solarized-dark2 > .hljs-section,
+code.hljs-solarized-dark2 > .hljs-name,
+code.hljs-solarized-dark2 > .hljs-selector-id,
+code.hljs-solarized-dark2 > .hljs-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+code.hljs-solarized-dark2 > .hljs-attribute,
+code.hljs-solarized-dark2 > .hljs-attr,
+code.hljs-solarized-dark2 > .hljs-variable,
+code.hljs-solarized-dark2 > .hljs-template-variable,
+code.hljs-solarized-dark2 > .hljs-class .hljs-title,
+code.hljs-solarized-dark2 > .hljs-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+code.hljs-solarized-dark2 > .hljs-symbol,
+code.hljs-solarized-dark2 > .hljs-bullet,
+code.hljs-solarized-dark2 > .hljs-subst,
+code.hljs-solarized-dark2 > .hljs-meta,
+code.hljs-solarized-dark2 > .hljs-meta .hljs-keyword,
+code.hljs-solarized-dark2 > .hljs-selector-attr,
+code.hljs-solarized-dark2 > .hljs-selector-pseudo,
+code.hljs-solarized-dark2 > .hljs-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+code.hljs-solarized-dark2 > .hljs-built_in,
+code.hljs-solarized-dark2 > .hljs-deletion {
+  color: #dc322f;
+}
+
+code.hljs-solarized-dark2 > .hljs-formula {
+  background: #073642;
+}
+
+code.hljs-solarized-dark2 > .hljs-emphasis {
+  font-style: italic;
+}
+
+code.hljs-solarized-dark2 > .hljs-strong {
+  font-weight: bold;
+}

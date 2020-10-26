@@ -1,0 +1,63 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs-dark2 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+}
+
+code.hljs-dark2 > .hljs-keyword,
+code.hljs-dark2 > .hljs-selector-tag,
+code.hljs-dark2 > .hljs-literal,
+code.hljs-dark2 > .hljs-section,
+code.hljs-dark2 > .hljs-link {
+  color: white;
+}
+
+.hljs-dark2,
+code.hljs-dark2 > .hljs-subst {
+  color: #ddd;
+}
+
+code.hljs-dark2 > .hljs-string,
+code.hljs-dark2 > .hljs-title,
+code.hljs-dark2 > .hljs-name,
+code.hljs-dark2 > .hljs-type,
+code.hljs-dark2 > .hljs-attribute,
+code.hljs-dark2 > .hljs-symbol,
+code.hljs-dark2 > .hljs-bullet,
+code.hljs-dark2 > .hljs-built_in,
+code.hljs-dark2 > .hljs-addition,
+code.hljs-dark2 > .hljs-variable,
+code.hljs-dark2 > .hljs-template-tag,
+code.hljs-dark2 > .hljs-template-variable {
+  color: #d88;
+}
+
+code.hljs-dark2 > .hljs-comment,
+code.hljs-dark2 > .hljs-quote,
+code.hljs-dark2 > .hljs-deletion,
+code.hljs-dark2 > .hljs-meta {
+  color: #777;
+}
+
+code.hljs-dark2 > .hljs-keyword,
+code.hljs-dark2 > .hljs-selector-tag,
+code.hljs-dark2 > .hljs-literal,
+code.hljs-dark2 > .hljs-title,
+code.hljs-dark2 > .hljs-section,
+code.hljs-dark2 > .hljs-doctag,
+code.hljs-dark2 > .hljs-type,
+code.hljs-dark2 > .hljs-name,
+code.hljs-dark2 > .hljs-strong {
+  font-weight: bold;
+}
+
+code.hljs-dark2 > .hljs-emphasis {
+  font-style: italic;
+}

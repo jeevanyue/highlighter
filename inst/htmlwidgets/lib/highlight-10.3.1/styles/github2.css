@@ -1,0 +1,99 @@
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+code.hljs-github2 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+code.hljs-github2 > .hljs-comment,
+code.hljs-github2 > .hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+code.hljs-github2 > .hljs-keyword,
+code.hljs-github2 > .hljs-selector-tag,
+code.hljs-github2 > .hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+code.hljs-github2 > .hljs-number,
+code.hljs-github2 > .hljs-literal,
+code.hljs-github2 > .hljs-variable,
+code.hljs-github2 > .hljs-template-variable,
+code.hljs-github2 > .hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+code.hljs-github2 > .hljs-string,
+code.hljs-github2 > .hljs-doctag {
+  color: #d14;
+}
+
+code.hljs-github2 > .hljs-title,
+code.hljs-github2 > .hljs-section,
+code.hljs-github2 > .hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+code.hljs-github2 > .hljs-subst {
+  font-weight: normal;
+}
+
+code.hljs-github2 > .hljs-type,
+code.hljs-github2 > .hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+code.hljs-github2 > .hljs-tag,
+code.hljs-github2 > .hljs-name,
+code.hljs-github2 > .hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+code.hljs-github2 > .hljs-regexp,
+code.hljs-github2 > .hljs-link {
+  color: #009926;
+}
+
+code.hljs-github2 > .hljs-symbol,
+code.hljs-github2 > .hljs-bullet {
+  color: #990073;
+}
+
+code.hljs-github2 > .hljs-built_in,
+code.hljs-github2 > .hljs-builtin-name {
+  color: #0086b3;
+}
+
+code.hljs-github2 > .hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+code.hljs-github2 > .hljs-deletion {
+  background: #fdd;
+}
+
+code.hljs-github2 > .hljs-addition {
+  background: #dfd;
+}
+
+code.hljs-github2 > .hljs-emphasis {
+  font-style: italic;
+}
+
+code.hljs-github2 > .hljs-strong {
+  font-weight: bold;
+}

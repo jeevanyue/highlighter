@@ -1,0 +1,18 @@
+Package: highlighter
+Type: Package
+Title: Highlight code using highlighjs
+Version: 0.0.1
+Authors@R: person("Jeevan", "Yue", email = "jeevanyue@foxmail.com", role = c("aut", "cre"))
+Description: Highlight code using highlighjs. highlighjs <https://highlightjs.org> is syntax highlighting for the web.
+URL: https://github.com/jeevanyue/highlighter
+BugReports: https://github.com/jeevanyue/highlighter/issues
+License: MIT + file LICENSE
+Depends: R (>= 3.00)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:
+    htmlwidgets,
+    htmltools,
+    readr,
+    shiny

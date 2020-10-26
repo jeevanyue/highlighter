@@ -1,0 +1,84 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.hljs-solarized-light2 {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fdf6e3;
+  color: #657b83;
+}
+
+code.hljs-solarized-light2 > .hljs-comment,
+code.hljs-solarized-light2 > .hljs-quote {
+  color: #93a1a1;
+}
+
+/* Solarized Green */
+code.hljs-solarized-light2 > .hljs-keyword,
+code.hljs-solarized-light2 > .hljs-selector-tag,
+code.hljs-solarized-light2 > .hljs-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+code.hljs-solarized-light2 > .hljs-number,
+code.hljs-solarized-light2 > .hljs-string,
+code.hljs-solarized-light2 > .hljs-meta .hljs-meta-string,
+code.hljs-solarized-light2 > .hljs-literal,
+code.hljs-solarized-light2 > .hljs-doctag,
+code.hljs-solarized-light2 > .hljs-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+code.hljs-solarized-light2 > .hljs-title,
+code.hljs-solarized-light2 > .hljs-section,
+code.hljs-solarized-light2 > .hljs-name,
+code.hljs-solarized-light2 > .hljs-selector-id,
+code.hljs-solarized-light2 > .hljs-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+code.hljs-solarized-light2 > .hljs-attribute,
+code.hljs-solarized-light2 > .hljs-attr,
+code.hljs-solarized-light2 > .hljs-variable,
+code.hljs-solarized-light2 > .hljs-template-variable,
+code.hljs-solarized-light2 > .hljs-class .hljs-title,
+code.hljs-solarized-light2 > .hljs-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+code.hljs-solarized-light2 > .hljs-symbol,
+code.hljs-solarized-light2 > .hljs-bullet,
+code.hljs-solarized-light2 > .hljs-subst,
+code.hljs-solarized-light2 > .hljs-meta,
+code.hljs-solarized-light2 > .hljs-meta .hljs-keyword,
+code.hljs-solarized-light2 > .hljs-selector-attr,
+code.hljs-solarized-light2 > .hljs-selector-pseudo,
+code.hljs-solarized-light2 > .hljs-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+code.hljs-solarized-light2 > .hljs-built_in,
+code.hljs-solarized-light2 > .hljs-deletion {
+  color: #dc322f;
+}
+
+code.hljs-solarized-light2 > .hljs-formula {
+  background: #eee8d5;
+}
+
+code.hljs-solarized-light2 > .hljs-emphasis {
+  font-style: italic;
+}
+
+code.hljs-solarized-light2 > .hljs-strong {
+  font-weight: bold;
+}
