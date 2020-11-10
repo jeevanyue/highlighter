@@ -11,7 +11,7 @@ HTMLWidgets.widget({
     return {
 
       renderValue: function(x) {
-        highlight.innerHTML = '<pre class="hljs-' + x.style + '"><code class="hljs-' + x.style + ' language-' + x.language + '">' + x.code + '</code></pre>';
+        highlight.innerHTML = '<pre class="hljs-' + x.style + '" style="height:100%"><code class="hljs-' + x.style + ' language-' + x.language + '"style>' + x.code + '</code></pre>';
         // hljs.initHighlightingOnLoad();
         hljs.highlightBlock(highlight);
       },
